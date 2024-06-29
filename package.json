@@ -1,0 +1,25 @@
+{
+  "name": "Discord-js-v14-template-for-glitch",
+  "version": "14",
+  "description": "It is template of Discord.js v14.",
+  "main": "code.js",
+  "scripts": {
+    "start": "node code.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/discord-js-v14-template-glitch"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "template"
+  ]
+}
