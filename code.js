@@ -15,9 +15,9 @@ const client = new Client({
   ]
   });
 
-const token = "MTA3ODQwOTU0MDM5Mjk5Mjk4MQ.GMPw4D.bVyneGVtm3L5J9ohm0uprdix0tXrnUfnxinkb0";
-const DM_ID = "1226103212394811443";
-const My_ID = "962670040795201557";
+const token = process.env.DISCORD_BOT_TOKEN;
+const DM_ID = process.env.DM_ID;
+const My_ID = process.env.My_ID;
 
 client.on('ready', () => {
   console.log(`${client.user.username}が起動しました。\n現在のPingは${client.ws.ping}です`);
