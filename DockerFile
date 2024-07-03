@@ -9,4 +9,4 @@ COPY . .
 ARG PORT
 EXPOSE 8080
 
-CMD ["node", "server.js"]
+CMD ["node", "node server.js"]
