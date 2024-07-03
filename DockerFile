@@ -1,7 +1,7 @@
 FROM node:18 AS build
 WORKDIR /bot
 
-COPY package*.json .
+COPY package*.json ./
 RUN npm install
 
 COPY . .
@@ -9,4 +9,4 @@ COPY . .
 ARG PORT
 EXPOSE 8080
 
-CMD ["node", "node server.js"]
+CMD ["node"]
